@@ -14,7 +14,7 @@ const john:user={
 }
 
 function func3( temp:user ){
-    
+    console.log();
 }
 
 func3(john);

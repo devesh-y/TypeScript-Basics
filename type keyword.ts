@@ -2,8 +2,8 @@
 
 type user={
     name:string;
-    age:number;
-    pass:boolean;
+    readonly age:number;  //it makes it as the keyword suggest
+    pass:boolean;        
 }
 
 
@@ -18,3 +18,13 @@ function func3( temp:user ){
 }
 
 func3(john);
+
+type date={
+    mydate:string;
+}
+
+
+type three=date & user;     //inheritance of types
+
+
+

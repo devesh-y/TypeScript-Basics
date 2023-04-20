@@ -5,7 +5,7 @@ function add(one:number, two:any){
 var c=add(5,"str")
 console.log(c);
 
-var func=(num:number):void=>{
+var func=(num:number):void|number=>{       //important
     console.log(num);
 }
 var func2=(num:number):number=>{

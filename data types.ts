@@ -13,3 +13,5 @@ console.log(myboolean);
 
 let some:any=null;          //by defalut all are any
 console.log(some);
+
+let some2:number| boolean =true

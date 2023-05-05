@@ -1,8 +1,8 @@
 function add(one:number, two:any){
-    return one+two
+    return one+two;
 }
 
-var c=add(5,"str")
+let c=add(5,"str")
 console.log(c);
 
 var func=(num:number):void|number=>{       //important
@@ -16,3 +16,5 @@ var func2=(num:number):number=>{
 function handleerror(err:string):never{
     throw new Error(err);
 }
+
+

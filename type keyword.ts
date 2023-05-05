@@ -3,14 +3,13 @@
 type user={
     name:string;
     readonly age:number;  //it makes it as the keyword suggest
-    pass:boolean;        
+    pass?:boolean;      //here i make pass as optional  
 }
 
 
 const john:user={
     name:"john",
     age:30,
-    pass:true
 }
 
 function func3( temp:user ){
@@ -25,6 +24,6 @@ type date={
 
 
 type three=date & user;     //inheritance of types
-
+type four=date  | user      
 
 

@@ -9,7 +9,7 @@ type user={
 
 const john:user={
     name:"john",
-    age:30,
+    age:30,      //because pass is optional
 }
 
 function func3( temp:user ){
@@ -27,3 +27,15 @@ type three=date & user;     //inheritance of types
 type four=date  | user      
 
 
+//In TypeScript, the syntax Record<string, any> is a type declaration that represents an object where the keys are strings and the values can be of any type.
+const myObject: Record<string, any> = {
+    name: "John Doe",
+    age: 25,
+    isStudent: true,
+    favoriteColor: ["blue", "green"],
+  };
+  
+  console.log(myObject.name);  // "John Doe"
+  console.log(myObject.age);   // 25
+  console.log(myObject.isStudent); // true
+  console.log(myObject.favoriteColor); // ["blue", "green"]
